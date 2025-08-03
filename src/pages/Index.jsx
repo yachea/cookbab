@@ -9,16 +9,16 @@ function Index() {
   return (
     <div>
       <div>
-        <Header></Header>
+        <Header />
       </div>
       <div>
-        <HomeBanner></HomeBanner>
-        <HomeOneMeal></HomeOneMeal>
-        <HomeWeekCook></HomeWeekCook>
-        <HomeMealTotal></HomeMealTotal>
+        <HomeBanner />
+        <HomeOneMeal />
+        <HomeWeekCook />
+        <HomeMealTotal />
       </div>
       <div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </div>
   );

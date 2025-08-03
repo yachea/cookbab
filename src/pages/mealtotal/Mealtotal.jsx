@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import MonthCookGraph from "../../components/MonthCookGraph";
 import Calendar from "react-calendar";
+import "../../pages/calendar.css";
 import CategoryGraph from "../../components/CategoryGraph";
 import TierGraph from "../../components/TierGraph";
 import CookTimeGraph from "../../components/CookTimeGraph";
@@ -83,6 +84,9 @@ const ChartsFirstLine = styled.div`
   gap: 20px;
 `;
 const ChartsCalendar = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   border: 1px solid #dbdbdb;
   width: 40%;
   min-height: 400px;
